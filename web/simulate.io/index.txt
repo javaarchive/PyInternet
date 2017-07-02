@@ -1,0 +1,2 @@
+if pygame_enabled:
+	p('Pygame is enabled')
