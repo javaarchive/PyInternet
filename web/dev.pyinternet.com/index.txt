@@ -1,0 +1,2 @@
+p("Welcome to pyinternet development page")
+p("Not much content has been added")
