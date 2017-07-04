@@ -8,6 +8,7 @@ try:
 except:
 	t=False
 	heading("Launch failed. You probaly need to install PIDLE. Redirecting to installer. Press web button 1 to cancel.")
+	x=0
 	while x!=16:
 		x=x+1
 		p("Will redirect status"+str(x))
