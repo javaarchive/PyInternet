@@ -1,0 +1,18 @@
+def btn1(a=0):
+	global t
+	t=True
+	p("Cancel")
+try:
+	p("Trying to start PIDLE")
+	exec(open("idlelaunch.py").read())
+except:
+	t=False
+	heading("Launch failed. You probaly need to install PIDLE. Redirecting to installer. Press web button 1 to cancel.")
+	while x!=16:
+		x=x+1
+		p("Will redirect status"+str(x))
+		time.sleep(0.25)
+	if not t:
+		redirect("install.PIDLE.com")
+	else:
+		p("Redirect terminate")
